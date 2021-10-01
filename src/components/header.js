@@ -24,15 +24,11 @@ const Header = (title, date, temp) => {
   headerDiv.appendChild(titleElement);
   headerDiv.appendChild(tempSpan);
 
-  // const date = date
-  // const title = title
-  // const temp = temp
-
   dateSpan.textContent = `${date}`;
   titleElement.textContent = `${title}`;
   tempSpan.textContent = `${temp}`;
 
-  return headerDiv
+  return headerDiv;
 }
 
 const headerAppender = (selector) => {
