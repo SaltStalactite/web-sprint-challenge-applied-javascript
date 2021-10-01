@@ -69,11 +69,11 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 3. What is an event listener?
 
-   An event listener is a function that is added to the desired target with the .addEventListener method and which is called whenever the chosen even is delivered to the target. It normally takes an event type, which will be listened for, and a callback, which will the event triggers, as parameters.
+   An event listener is a function that is added to the desired target with the .addEventListener method and which is called whenever the chosen even is delivered to the target. It normally takes an event type, which will be listened for, and a callback, which the event triggers, as parameters.
 
 4. Why would we convert a NodeList into an Array?
 
-    A NodeList is an array-like object but not a true array, so while it will have access to the .forEach() array method in order to access most other array methods it will first have to be converted into an actually array with the Array.from() method.
+    A NodeList is an array-like object but not a true array, so while it will have access to the .forEach() array method in order to access most other array methods it will first have to be converted into an actual array with the Array.from() method.
 
 5. What is a component?
 
